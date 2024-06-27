@@ -140,7 +140,7 @@ public class ShoppingCart {
                         System.out.println("Invalid choice. Please try again.");
                         break;
                 }
-            } catch (DuplicateProductIDException | ProductNotFoundException | IllegalArgumentException e) {
+            } catch (DuplicateProductIDException | ProductNotFoundException e) {
                 System.out.println(e.getMessage());
             }
         }
